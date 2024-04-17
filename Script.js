@@ -406,3 +406,5 @@ page6Fn();
 page7Fn();
 
 page9Fn();
+
+scrollTriggerPlusLocomotiveJsCode();
