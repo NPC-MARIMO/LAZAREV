@@ -32,7 +32,6 @@ let navFn = () => {
     gsap.to("#expand", {
         y: -90,
         scrollTrigger: {
-            scroll : "#main",
             trigger: "#page2",
             scrub: 1,
             start: "top bottom"
@@ -41,7 +40,6 @@ let navFn = () => {
     gsap.to("nav", {
         y: -50,
         scrollTrigger: {
-            scroll : "#main",
             trigger: "#page2",
             scrub: 1,
             start: "top bottom"
